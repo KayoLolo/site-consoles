@@ -14,9 +14,9 @@ export class ProduitsComponent implements OnInit {
   produitId: number | null = null;
 
   consoles = [
-    { id: 1, nom: 'PlayStation 5', description: 'Console de dernière génération', imageUrl: 'https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$', prix: 499 },
-    { id: 2, nom: 'Xbox Series X', description: 'Console ultra-puissante', image: '/assets/images/xbox.jpeg', prix: 499 },
-    { id: 3, nom: 'Nintendo Switch', description: 'Console hybride', image: '/assets/images/switch.jpeg', prix: 299 }
+    { id: 1, nom: 'PlayStation 5', image: 'https://images.frandroid.com/wp-content/uploads/2023/11/ps5-slim-design-scaled.jpg', prix: 499 },
+    { id: 2, nom: 'Xbox Series X', image: 'https://imagedelivery.net/JAV112JY973Crznn4xb8Sg/2cc5cb81-61a0-42d9-322b-de11c9b8c000/public', prix: 499 },
+    { id: 3, nom: 'Nintendo Switch', image: 'https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/0045496453596_1.jpg', prix: 299 }
   ];
 
 
