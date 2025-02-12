@@ -27,8 +27,8 @@ export class ProduitsComponent implements OnInit {
       const id = params.get('id');
       
       if (id !== null) {
-        this.produitId = +id;  // Convertir l'id en nombre
-        console.log(this.produitId); // Vérification dans la console
+        this.produitId = +id;  
+        console.log(this.produitId); 
       } else {
         console.error('ID du produit manquant!');
       }

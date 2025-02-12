@@ -19,12 +19,11 @@ interface Produit {
 })
 export class PanierComponent implements OnInit {
 
-  panier: Produit[] = []; // Initialisation du panier en tant que tableau de Produits
+  panier: Produit[] = []; 
 
   constructor() { }
 
   ngOnInit(): void {
-    // Exemple de données de panier, à remplacer par des données réelles
     this.panier = [
       { id: 1, nom: 'PlayStation 5', image: '/assets/images/ps5.jpeg', prix: 499, quantite: 1 },
       { id: 2, nom: 'Xbox Series X', image: '/assets/images/xbox.jpeg', prix: 499, quantite: 2 },
