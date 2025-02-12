@@ -1,0 +1,64 @@
+/* panier.component.css */
+
+.panier-container {
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  
+  .panier-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .panier-item img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .panier-item h4 {
+    font-size: 18px;
+    color: #333;
+    flex: 1;
+  }
+  
+  .panier-item p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .panier-item .quantite {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  
+  .total-panier {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    color: #007bff;
+  }
+  

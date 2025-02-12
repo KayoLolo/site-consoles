@@ -1,0 +1,60 @@
+/* commande.component.css */
+
+.commande-container {
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .commande-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .commande-container .resume-commande {
+    margin-bottom: 30px;
+  }
+  
+  .commande-container .resume-commande ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .commande-container .resume-commande li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .commande-container .formulaire-commande {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .commande-container .formulaire-commande input,
+  .commande-container .formulaire-commande button {
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .commande-container .formulaire-commande input {
+    width: 100%;
+  }
+  
+  .commande-container .formulaire-commande button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .commande-container .formulaire-commande button:hover {
+    background-color: #0056b3;
+  }
+  

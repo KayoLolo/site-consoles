@@ -1,0 +1,8 @@
+<div *ngIf="produit">
+    <img [src]="produit.image" alt="{{ produit.nom }}">
+    <h3>{{ produit.nom }}</h3>
+    <p>{{ produit.description }}</p>
+    <p>{{ produit.prix | currency }}</p>
+    <button (click)="ajouterAuPanier()">Ajouter au panier</button>
+  </div>
+  

@@ -1,0 +1,21 @@
+<!-- panier.component.html -->
+
+<div class="panier-container">
+    <h2>Votre panier</h2>
+  
+    <!-- Liste des produits dans le panier -->
+    <div *ngFor="let produit of panier" class="panier-item">
+      <img [src]="produit.image" alt="{{ produit.nom }}">
+      <div class="produit-info">
+        <h4>{{ produit.nom }}</h4>
+        <p>Prix: {{ produit.prix | currency }}</p>
+        <p>Quantité: {{ produit.quantite }}</p>
+      </div>
+      <button (click)="supprimerDuPanier(produit.id)">Supprimer</button>
+    </div>
+  
+    <div class="total-panier">
+      <p>Total: {{ totalPanier() | currency }}</p>
+    </div>
+  </div>
+  

@@ -1,0 +1,12 @@
+<div class="consoles">
+  <nav>
+    <a [routerLink]="['/panier']">Panier</a>
+  </nav>
+  <div *ngFor="let console of consoles" class="console">
+    <img [src]="console.image" alt="{{ console.nom }}">
+    <h3>{{ console.nom }}</h3>
+    <p>{{ console.prix | currency }}</p>
+    <button [routerLink]="['/produit', console.id]">Voir Détails</button>
+  </div>
+</div>
+  
